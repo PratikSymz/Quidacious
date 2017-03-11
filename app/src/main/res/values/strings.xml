@@ -1,0 +1,198 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title For Application [CHAR LIMIT=12] -->
+    <string name="app_name">Quiz App</string>
+
+
+    <!-- Description Title Of The Quiz [CHAR LIMIT=15] -->
+    <string name="descriptionTitle">Description</string>
+
+    <!-- Quiz Description Content [CHAR LIMIT=1000] -->
+    <string name="quizDescriptionContent1">1. This quiz contains 9 questions, all of which are compulsory.</string>
+    <string name="quizDescriptionContent2">2. It consists of:- </string>
+    <string name="quizDescriptionContent3">\t- Three Multiple-Answer questions (1, 5, 8).</string>
+    <string name="quizDescriptionContent4">\t- Four Single-Answer questions (3, 4, 6, 7).</string>
+    <string name="quizDescriptionContent5">\t- And, two Text Field questions (2, 9).</string>
+    <string name="quizDescriptionContent6">3. All Questions are 1 point each &amp; no points will be deducted for a wrong answer.</string>
+    <string name="quizDescriptionContent7">4. An extra of 1 point will be awarded for correctly answering
+        all questions, making a total of 10 points.</string>
+
+    <string name="goodLuck">Good Luck!</string>
+
+    <!-- Continue Button Text -->
+    <string name="startButton">Start</string>
+
+
+    <!-- Quiz Questions Activity -->
+
+    <!-- Info Of First Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberOne">Question 1</string>
+    <!-- Question text display -->
+    <string name="questionOne">Mark the three primary colours.</string>
+    <!-- CheckBoxes Text display for question 1 -->
+    <string name="question1C1">Red</string>
+    <string name="question1C2">Blue</string>
+    <string name="question1C3">Green</string>
+    <string name="question1C4">Yellow</string>
+
+    <!-- Info Of Second Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberTwo">Question 2</string>
+    <!-- Question text display -->
+    <string name="questionTwo">Which animal is referred as the ship of the desert?</string>
+    <!-- EditText Hint display for question 2 -->
+    <string name="question2E">Enter Your Answer Here</string>
+
+    <!-- Info Of Third Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberThree">Question 3</string>
+    <!-- Question text display -->
+    <string name="questionThree">The female anopheles mosquito bite is associated with spreading which of the following deadly diseases?</string>
+    <!-- CheckBoxes Text display for question 3 -->
+    <string name="question3R1">Dengue</string>
+    <string name="question3R2">Cholera</string>
+    <string name="question3R3">Malaria</string>
+    <string name="question3R4">Jaundice</string>
+
+    <!-- Info Of Fourth Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberFour">Question 4</string>
+    <!-- Question text display -->
+    <string name="questionFour">How many edges does a cube have?</string>
+    <!-- RadioButtons Text display for question 4 -->
+    <string name="question4R1">10</string>
+    <string name="question4R2">12</string>
+    <string name="question4R3">14</string>
+    <string name="question4R4">6</string>
+
+    <!-- Info Of Fifth Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberFive">Question 5</string>
+    <!-- Question text display -->
+    <string name="questionFive">What is another word for Dictionary?</string>
+    <!-- CheckBoxes Text display for question 5 -->
+    <string name="question5C1">Lexicon</string>
+    <string name="question5C2">Glossary</string>
+    <string name="question5C3">Encyclopedia</string>
+    <string name="question5C4">Wordbook</string>
+
+    <!-- Info Of Sixth Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberSix">Question 6</string>
+    <!-- Question text display -->
+    <string name="questionSix">Which of the following is the seventh planet from the sun?</string>
+    <!-- RadioButtons Text display for question 6 -->
+    <string name="question6R1">Mars</string>
+    <string name="question6R2">Saturn</string>
+    <string name="question6R3">Uranus</string>
+    <string name="question6R4">Neptune</string>
+
+    <!-- Info Of Seventh Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberSeven">Question 7</string>
+    <!-- Question text display -->
+    <string name="questionSeven">What is the world\'s longest river?</string>
+    <!-- RadioButtons Text display for question 7 -->
+    <string name="question7R1">Nile</string>
+    <string name="question7R2">Amazon</string>
+    <string name="question7R3">Yellow River</string>
+    <string name="question7R4">Mississippi</string>
+
+    <!-- Info Of Eighth Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberEight">Question 8</string>
+    <!-- Question text display -->
+    <string name="questionEight">Which of the following animals fall under the category of Mammals?</string>
+    <!-- CheckBoxes Text display for question 5 -->
+    <string name="question8C1">Whale</string>
+    <string name="question8C2">Elephant</string>
+    <string name="question8C3">Eagle</string>
+    <string name="question8C4">Ostrich</string>
+
+    <!-- Info Of Ninth Quiz Question [CHAR LIMIT=200] -->
+    <!-- Question number text display -->
+    <string name="quizNumberNine">Question 9</string>
+    <!-- Question text display -->
+    <string name="questionNine">What is the capital of England?</string>
+    <!-- EditText Hint display for question 9 -->
+    <string name="question9E">Enter Your Answer Here</string>
+
+    <!-- Submit Button [CHAR LIMIT=10] -->
+    <string name="submitButton">Submit</string>
+
+
+    <!-- Result Summary -->
+
+    <!-- Final Result Header TextView -->
+    <string name="finalResult">Final Result</string>
+
+    <!-- Total Score TextView -->
+    <string name="totalScore">You Scored: <xliff:g example="2.0" id="totalScore">%d</xliff:g></string>
+
+    <!--
+       Result Summary TextViews. It will be shown in the format of "Question 1 Correct: true"
+       where true or false will determine whether the question is answered correctly or not. [CHAR LIMIT=NONE]
+     -->
+
+    <!-- Result of Question 1 -->
+    <string name="Q1Correct">Question 1 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ1">%b</xliff:g></string>
+
+    <!-- Result of Question 2 -->
+    <string name="Q2Attempted">Question 2 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ2">%b</xliff:g></string>
+
+    <!-- Result of Question 3 -->
+    <string name="Q3Correct">Question 3 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ3">%b</xliff:g></string>
+
+    <!-- Result of Question 4 -->
+    <string name="Q4Correct">Question 4 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ4">%b</xliff:g></string>
+
+    <!-- Result of Question 5 -->
+    <string name="Q5Correct">Question 5 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ5">%b</xliff:g></string>
+
+    <!-- Result of Question 6 -->
+    <string name="Q6Correct">Question 6 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ6">%b</xliff:g></string>
+
+    <!-- Result of Question 7 -->
+    <string name="Q7Correct">Question 7 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ7">%b</xliff:g></string>
+
+    <!-- Result of Question 8 -->
+    <string name="Q8Correct">Question 8 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ8">%b</xliff:g></string>
+
+    <!-- Result of Question 9 -->
+    <string name="Q9Attempted">Question 9 Correct:\t<xliff:g example="true" id="hasCorrectlyAttemptedQ9">%b</xliff:g></string>
+
+
+    <!-- Correct Answers Header TextView -->
+    <string name="correctAnswer">Correct Answers</string>
+
+    <!-- Correct Answers TextViews List -->
+
+    <!-- Correct Answer for Question 1 -->
+    <string name="answer1">1. The three Primary colors are Red, Blue &amp; Yellow.</string>
+
+    <!-- Correct Answer for Question 2 -->
+    <string name="answer2">2. The camel is the \"Ship Of The Desert\".</string>
+
+    <!-- Correct Answer for Question 3 -->
+    <string name="answer3">3. Malaria is caused by the bite of the female anopheles mosquito .</string>
+
+    <!-- Correct Answer for Question 4 -->
+    <string name="answer4">4. A cube has 12 edges, 6 faces and 8 vertices.</string>
+
+    <!-- Correct Answer for Question 5 -->
+    <string name="answer5">5. Lexicon, Glossary, Encyclopedia &amp; Wordbook are all synonyms of the word \'Dictionary\'.</string>
+
+    <!-- Correct Answer for Question 6 -->
+    <string name="answer6">6. Uranus is the seventh planet from the sun.</string>
+
+    <!-- Correct Answer for Question 7 -->
+    <string name="answer7">7. The Amazon River, not the Nile, is the longest in the world, a team of Brazilian scientists claims.</string>
+
+    <!-- Correct Answer for Question 8 -->
+    <string name="answer8">8. The Whale &amp; the Elephant are mammals.</string>
+
+    <!-- Correct Answer for Question 9 -->
+    <string name="answer9">9. The capital of England is London.</string>
+
+</resources>

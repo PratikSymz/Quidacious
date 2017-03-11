@@ -1,0 +1,165 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- App Branding color for app bar. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Darker variant for status bar and contextual app bars. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Theme UI controls like checkboxes and text fields. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <!-- Quiz Description Activity Theme -->
+
+    <!-- Style For Quiz Description Header TextView -->
+    <style name="descriptionHeader">
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style For Quiz Description Content TextViews -->
+    <style name="descriptionLines">
+        <item name="android:layout_margin">@dimen/margin_10</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+    </style>
+
+    <style name="goodLuck">
+        <item name="android:layout_margin">@dimen/margin_20</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style For 'Click To See' Quiz Description TextView -->
+    <style name="startButton">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_15</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10</item>
+        <item name="android:background">@drawable/gradient2_1x</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+    <!-- Quiz Questions Activity Theme -->
+
+    <!-- Style For Question Number TextView -->
+    <style name="questionNumber">
+        <item name="android:layout_margin">@dimen/margin_10</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">monospace</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style For Questions TextView -->
+    <style name="questions">
+        <item name="android:layout_margin">@dimen/margin_10</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorGrey</item>
+    </style>
+
+    <!-- Style For CheckBox Views -->
+    <style name="checkBoxesStyle">
+        <item name="android:paddingLeft">@dimen/margin_10</item>
+        <item name="android:layout_marginLeft">@dimen/margin_5</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:buttonTint" tools:targetApi="lollipop">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style For EditText Views -->
+    <style name="editTextStyle">
+        <item name="android:layout_margin">@dimen/margin_8</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:hint">@string/question2E</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:inputType">textMultiLine|textCapSentences|textAutoCorrect</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+    </style>
+
+    <!-- Style For RadioButton Views -->
+    <style name="radioButtonStyle">
+        <item name="android:state_checked">true</item>
+        <item name="android:state_pressed">false</item>
+        <item name="android:paddingLeft">@dimen/margin_10</item>
+        <item name="android:layout_marginLeft">@dimen/margin_5</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:buttonTint" tools:targetApi="lollipop">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style For Horizontal View Line -->
+    <style name="horizontalViewStyle">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_margin">@dimen/margin_8</item>
+    </style>
+
+    <!-- Style For SUBMIT Button View -->
+    <style name="submitStyle">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/margin_20</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:background">@drawable/gradient2_1x</item>
+    </style>
+
+
+    <!-- Quiz Questions Activity Theme -->
+
+    <!-- Style For The Final Result Header TextView -->
+    <style name="finalResultHeaderStyle">
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">monospace</item>
+    </style>
+
+    <!-- Style For The Final Score TextView -->
+    <style name="finalScoreStyle">
+        <item name="android:layout_margin">@dimen/margin_10</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style For The Final Result Summary TextViews -->
+    <style name="finalResultSummaryStyle">
+        <item name="android:layout_margin">@dimen/margin_10</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style For The Correct Answers Header TextView -->
+    <style name="correctAnswerHeaderStyle">
+        <item name="android:layout_margin">@dimen/margin_5</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">monospace</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style For The Correct Answers TextViews -->
+    <style name="correctAnswersStyle">
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+</resources>
