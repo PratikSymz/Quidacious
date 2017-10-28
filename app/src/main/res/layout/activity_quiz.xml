@@ -21,7 +21,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
 
                 <View
                     style="@style/horizontalViewStyle"
@@ -97,7 +99,11 @@
                     android:id="@+id/Q2Answer"
                     style="@style/editTextStyle"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:nextFocusUp="@id/Q2Answer"
+                    android:nextFocusLeft="@id/Q2Answer"
+                    android:maxLines="1"
+                    android:inputType="textAutoComplete|text|textAutoCorrect"/>
 
             </LinearLayout>
 
@@ -470,7 +476,11 @@
                     android:id="@+id/Q9Answer"
                     style="@style/editTextStyle"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:nextFocusUp="@id/Q2Answer"
+                    android:nextFocusLeft="@id/Q2Answer"
+                    android:maxLines="1"
+                    android:inputType="textAutoComplete|text|textAutoCorrect"/>
 
             </LinearLayout>
 

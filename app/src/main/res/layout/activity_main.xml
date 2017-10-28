@@ -20,6 +20,15 @@
             android:layout_height="wrap_content"
             android:text="@string/descriptionTitle" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="20dp"/>
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -30,60 +39,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
                     android:id="@+id/descriptionLines"
                     style="@style/descriptionLines"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quizDescriptionContent1" />
-
-                <TextView
-                    android:id="@+id/descriptionLines"
-                    style="@style/descriptionLines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quizDescriptionContent2"
-                    tools:ignore="DuplicateIds" />
-
-                <TextView
-                    android:id="@+id/descriptionLines"
-                    style="@style/descriptionLines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quizDescriptionContent3"
-                    tools:ignore="DuplicateIds" />
-
-                <TextView
-                    android:id="@+id/descriptionLines"
-                    style="@style/descriptionLines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quizDescriptionContent4"
-                    tools:ignore="DuplicateIds" />
-
-                <TextView
-                    android:id="@+id/descriptionLines"
-                    style="@style/descriptionLines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quizDescriptionContent5"
-                    tools:ignore="DuplicateIds" />
-
-                <TextView
-                    android:id="@+id/descriptionLines"
-                    style="@style/descriptionLines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quizDescriptionContent6"
-                    tools:ignore="DuplicateIds" />
-
-                <TextView
-                    android:id="@+id/descriptionLines"
-                    style="@style/descriptionLines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quizDescriptionContent7"
-                    tools:ignore="DuplicateIds" />
+                    android:text="@string/quizDescriptionContent" />
 
                 <TextView
                     android:id="@+id/goodLuck"

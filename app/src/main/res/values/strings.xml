@@ -8,14 +8,11 @@
     <string name="descriptionTitle">Description</string>
 
     <!-- Quiz Description Content [CHAR LIMIT=1000] -->
-    <string name="quizDescriptionContent1">1. This quiz contains 9 questions, all of which are compulsory.</string>
-    <string name="quizDescriptionContent2">2. It consists of:- </string>
-    <string name="quizDescriptionContent3">\t- Three Multiple-Answer questions (1, 5, 8).</string>
-    <string name="quizDescriptionContent4">\t- Four Single-Answer questions (3, 4, 6, 7).</string>
-    <string name="quizDescriptionContent5">\t- And, two Text Field questions (2, 9).</string>
-    <string name="quizDescriptionContent6">3. All Questions are 1 point each &amp; no points will be deducted for a wrong answer.</string>
-    <string name="quizDescriptionContent7">4. An extra of 1 point will be awarded for correctly answering
-        all questions, making a total of 10 points.</string>
+    <string name="quizDescriptionContent">This quiz contains 9 questions, all of which are compulsory.
+        It has three Multiple-Answer questions, four Single-Answer questions, and, two Text Field questions.
+        All Questions are 1 point each &amp; no points will be deducted for a wrong answer.
+        An extra of 1 point will be awarded for correctly answering all questions, making a total of 10 points.
+    </string>
 
     <string name="goodLuck">Good Luck!</string>
 
@@ -167,6 +164,17 @@
     <string name="correctAnswer">Correct Answers</string>
 
     <!-- Correct Answers TextViews List -->
+    <string name="answers">
+        1. The three Primary colors are Red, Blue &amp; Yellow.\n\n
+        2. The camel is the \"Ship Of The Desert\".\n\n
+        3. Malaria is caused by the bite of the female anopheles mosquito.\n\n
+        4. A cube has 12 edges, 6 faces and 8 vertices.\n
+        5. Lexicon, Glossary, Encyclopedia &amp; Wordbook are all synonyms of the word \'Dictionary\'.\n
+        6. Uranus is the seventh planet from the sun.\n
+        7. The Amazon River, not the Nile, is the longest in the world, a team of Brazilian scientists claims.\n
+        8. The Whale &amp; the Elephant are mammals.\n
+        9. The capital of England is London.
+    </string>
 
     <!-- Correct Answer for Question 1 -->
     <string name="answer1">1. The three Primary colors are Red, Blue &amp; Yellow.</string>

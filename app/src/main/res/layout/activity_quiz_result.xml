@@ -13,6 +13,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/final_result_header"
             style="@style/finalResultHeaderStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,9 +48,11 @@
         <View
             style="@style/horizontalViewStyle"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/margin_1" />
+            android:layout_height="@dimen/margin_1"
+            android:layout_margin="10dp"/>
 
         <TextView
+            android:id="@+id/correct_answer_header"
             style="@style/correctAnswerHeaderStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
