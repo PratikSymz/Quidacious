@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion '26.0.2'
     defaultConfig {
-        applicationId "com.example.android.quizapp"
+        applicationId "com.pratiksymz.android.quizapp"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
